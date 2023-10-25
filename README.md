@@ -167,6 +167,6 @@ En el juego, existen 2 niveles, de los cuales se puede destacar lo siguiente:
 
 En el siguiente video, se adjunta una demostración del funcionamiento del juego:
 
-[![Alt text](https://github.com/rmelgo/ANIM-Juego-futbol-Unreal/assets/145989723/e7d5733c-7ac7-4d37-8ba4-f33e6565ed5b)](https://youtu.be/Q2wRhGV-U7k)
+![Miniatura](https://github.com/rmelgo/ANIM-Juego-futbol-Unreal/assets/145989723/d8b0fd16-d518-4590-8833-cf4fe82bf641)
 
-**Nota**: Hacer click a la imagen para acceder al video
+https://www.youtube.com/watch?v=Q2wRhGV-U7k
