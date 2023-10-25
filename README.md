@@ -4,7 +4,7 @@
 
 # - Introducción
 
-Proyecto realizado en la asignatura de Animación Digital del grado de Ingenieria Informática de la Universidad de Salamanca. El enunciado del proyecto se encuentra subido en el repositorio en un archivo PDF llamado <a href="https://github.com/rmelgo/ANIM-Juego-plataformas-Unity/blob/main/Enunciado%20Unity.pdf" target="_blank">*Enunciado Practica Unreal.pdf*</a>.
+Proyecto realizado en la asignatura de Animación Digital del grado de Ingenieria Informática de la Universidad de Salamanca. El enunciado del proyecto se encuentra subido en el repositorio en un archivo PDF llamado <a href="https://github.com/rmelgo/ANIM-Juego-futbol-Unreal/blob/master/Enunciado%20Pr%C3%A1ctica%20Unreal.pdf" target="_blank">*Enunciado Practica Unreal.pdf*</a>.
 
 El principal objetivo de este proyecto es la realización de un juego en Unreal que cumpla una serie de requisitos básicos como:
 - Manejo de diferentes mallas estáticas.
