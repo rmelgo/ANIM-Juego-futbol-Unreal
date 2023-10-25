@@ -30,7 +30,7 @@ Para desarrollar el juego se ha utilizado la versión *4.27.2* de Unreal.
 
 El proyecto cuenta con los siguientes ficheros:
 
-- Una carpeta llamada **Scripts** que contiene los scripts necesarios que realizan diferentes funcionalidades del juego como el moviemiento del personaje, el movimiento de los obstaculos, la gestión de la camara, etc.
+- Una carpeta llamada **Scripts** que contiene los scripts necesarios que realizan diferentes funcionalidades del juego como el movimiento del personaje, el movimiento de los obstaculos, la gestión de la camara, etc.
   
   - Incluye un fichero ejecutable **Trabajo Unity.exe** en el cual se puede ejecutar el juego directamente.
   
