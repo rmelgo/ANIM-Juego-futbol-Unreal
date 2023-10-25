@@ -34,7 +34,7 @@ El proyecto cuenta con los siguientes ficheros:
   
   - Incluye un fichero ejecutable **Trabajo Unity.exe** en el cual se puede ejecutar el juego directamente.
   
-- Un documento llamado **Trabajo_Unreal.pdf** en el que se describe detalladamente el proceso de construcción del juego adjuntado capturas, código y explicaciones de los distintos pasos realizados en el desarrollo del juego.
+- Un documento llamado **Trabajo_Unreal.pdf** en el que se describe detalladamente el proceso de construcción del juego adjuntado capturas, código y explicaciones de los distintos pasos realizados en el desarrollo del juego. (Nota: Este documento se encuentra en la rama master)
 
 Para descargar el **juego completo**, se adjunta el siguiente enlace, ya que es muy pesado para ser subido directamente en GitHub (4.9 GB):
 
