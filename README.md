@@ -4,9 +4,9 @@
 
 # - Introducción
 
-Proyecto realizado en la asignatura de Animación Digital del grado de Ingenieria Informática de la Universidad de Salamanca. El enunciado del proyecto se encuentra subido en el repositorio en un archivo PDF llamado <a href="https://github.com/rmelgo/ANIM-Juego-futbol-Unreal/blob/master/Enunciado%20Pr%C3%A1ctica%20Unreal.pdf" target="_blank">*Enunciado Practica Unreal.pdf*</a>.
+Proyecto realizado en la asignatura de ***Animación Digital*** del grado de Ingenieria Informática de la Universidad de Salamanca. El enunciado del proyecto se encuentra subido en el repositorio en un archivo PDF llamado <a href="https://github.com/rmelgo/ANIM-Juego-futbol-Unreal/blob/master/Enunciado%20Pr%C3%A1ctica%20Unreal.pdf" target="_blank">*Enunciado Practica Unreal.pdf*</a>.
 
-El principal objetivo de este proyecto es la realización de un juego en Unreal que cumpla una serie de requisitos básicos como:
+El principal objetivo de este proyecto es la realización de un juego en *Unreal* que cumpla una serie de requisitos básicos como:
 - Manejo de diferentes mallas estáticas.
 - Uso de Blueprints propios para el desarrollo de la lógica del juego.
 - Importación de personajes y animaciones y su configuración (al menos animaciones básicas).
@@ -16,13 +16,13 @@ El principal objetivo de este proyecto es la realización de un juego en Unreal 
 - Mallas de navegación y enemigos controlados con una IA básica.
 - Sistemas de partículas.
 
-De esta manera, se utilizán las distintos conocimientos sobre Unreal junto con el apoyo de varios assets gratuitos de la tienda de Unreal que permitan diseñar las plataformas, la infraestructura, el balón, la portería, el diseño del personaje, etc.
+De esta manera, se utilizarán las distintos conocimientos sobre *Unreal* junto con el apoyo de varios assets gratuitos de la tienda de *Unreal* que permitan diseñar las plataformas, la infraestructura, el balón, la portería, el diseño del personaje, etc.
 
 # - Comentarios sobre el entorno de ejecución
 
 Para ejecutar este programa, se requerirá de una distribución del Sistema Operativo **Windows**.    
 
-Esto se debe a que el entorno de Unreal funciona sobre Windows, además de que los ejecutables generados sólo pueden ejecutarse en Windows.
+Esto se debe a que el entorno de *Unreal* funciona sobre Windows, además de que los ejecutables generados sólo pueden ejecutarse en Windows.
 
 Para desarrollar el juego se ha utilizado la versión *4.27.2* de Unreal.
 
@@ -30,7 +30,7 @@ Para desarrollar el juego se ha utilizado la versión *4.27.2* de Unreal.
 
 El proyecto cuenta con los siguientes ficheros:
 
-- Una carpeta llamada **Scripts** que contiene los scripts necesarios que realizan diferentes funcionalidades del juego como el movimiento del personaje, el movimiento de los obstaculos, la gestión de la camara, etc.
+- Una carpeta llamada **Scripts** que contiene los scripts necesarios que realizan diferentes funcionalidades del juego como el movimiento del personaje, el movimiento de los obstaculos, la gestión de la cámara, etc.
   
   - Incluye un fichero ejecutable **Trabajo Unity.exe** en el cual se puede ejecutar el juego directamente.
   
@@ -46,11 +46,11 @@ Las características básicas del juego son las siguientes:
 
 - El juego consta de 2 níveles que el personaje debe superar para ganar en el juego.
 - Cada nivel cuentan con una serie de obstaculos, plataformas, enemigos, etc que el personaje debe superar para pasar al siguiente nivel.
-- El objetivo de cada nivel es superar los distintos obstaculos, plataformas y enemigos con el balon y meter un gol en la portería que se encuentra al final del nivel.
+- El objetivo de cada nivel es superar los distintos obstáculos, plataformas y enemigos con el balon y meter un gol en la portería que se encuentra al final del nivel.
 - Existen una serie de rivales de color rojo que van a perseguir a nuestro personaje, siempre y cuando nuestro personaje entre en su rango de visión.
-- Cuando los enemigos estan muy cerca de nuestro personaje, realizarán una entrada en segada con el objetivo de quitar vida a nuestro personaje.
-- Existen una serie de objetos distribuidos por el mapa que producen distintos efectos sobre el personaje. A continuación se explicarán con mayor detalle.
-- Cada vez que el personaje fracase en su intento de superar el nivel, se le colocará de nuevo en la plataforma de inicio del nivel. Existen distintas maneras de fallar en un nivel. A continuación se explicarán con mayor detalle.
+- Cuando los enemigos están muy cerca de nuestro personaje, realizarán una entrada en segada con el objetivo de quitar vida a nuestro personaje.
+- Existen una serie de objetos distribuidos por el mapa que producen distintos efectos sobre el personaje. A continuación, se explicarán con mayor detalle.
+- Cada vez que el personaje fracase en su intento de superar el nivel, se le colocará de nuevo en la plataforma de inicio del nivel. Existen distintas maneras de fallar en un nivel. A continuación, se explicarán con mayor detalle.
 
 ## Controles básicos
 
@@ -58,18 +58,18 @@ El personaje cuenta con los siguientes controles básicos:
 
 - Con las flechas del teclado o con las teclas ***W***, ***A***, ***S*** y ***D*** se puede mover al personaje hacia delante, hacia la izquierda, hacia atras y hacia la derecha respectivamente.
 - Con la tecla ***espacio***, el personaje puede saltar.
-- Con el ***click izquierdo*** de ratón, el personaje puede realizar un pequeño toque de balón para superar a los enemigos y las plataformas. Es imprescible que el persoanje se encuentre cerca del balón para poder realizar esta acción.
-- Con el ***click derecho*** de ratón, el personaje puede realizar un disparo o toque largo de balón para superar a los enemigos y las plataformas y marcar gol en la portería. Es imprescible que el persoanje se encuentre cerca del balón para poder realizar esta acción.
+- Con el ***click izquierdo*** de ratón, el personaje puede realizar un pequeño toque de balón para superar a los enemigos y las plataformas. Es imprescible que el personaje se encuentre cerca del balón para poder realizar esta acción.
+- Con el ***click derecho*** de ratón, el personaje puede realizar un disparo o toque largo de balón para superar a los enemigos y las plataformas y marcar gol en la portería. Es imprescible que el personaje se encuentre cerca del balón para poder realizar esta acción.
 - Con la tecla ***P***, el personaje puede simular una falta. Al realizar esta acción, nuestro personaje será sancionado con tarjeta amarilla.
-- Con la tecla ***Z***, el personaje realiza su celebración habitual, inclyendo su grito caracteristico (Siuuuh!!).
-- Con la tecla ***C***, el personaje realiza un gesto de disconformidad, inclyendo un sonido de negación.
+- Con la tecla ***Z***, el personaje realiza su celebración habitual, inclyendo su grito característico (Siuuuh!!).
+- Con la tecla ***C***, el personaje realiza un gesto de disconformidad, incluyendo un sonido de negación.
 - Con la tecla ***N***, el personaje dice la siguiente frase prepotente:
   
 ```Si todos estuvieran a mi nivel, estariamos primeros a lo mejor.```
 
 - Con la tecla ***J***, el personaje dice la siguiente frase prepotente:
   
-```Desde que estoy en España dime un jugador que haya marcado más goles que yo fuera de casa. Uno.```
+```Desde que estoy en España, dime un jugador que haya marcado más goles que yo fuera de casa. Uno.```
 
 - Con la tecla ***G***, el personaje dice la siguiente frase prepotente:
   
@@ -77,11 +77,11 @@ El personaje cuenta con los siguientes controles básicos:
 
 - Con la tecla ***Y***, el personaje dice la siguiente frase prepotente:
 
-```A mi me importa Real Madrid y yo.```
+```A mí me importa Real Madrid y yo.```
 
 ## Objetos del juego
 
-En el juego, existen distintos juegos que el personaje puede recoger:
+En el juego, existen distintos objetos que el personaje puede recoger:
 
 - **Balón de oro**: Se tratan de objetos coleccionables por el personaje. Cuanto mayor sea el número de balones de oro recogidos por el personaje, mayor será la puntuación final del juego.
 
@@ -117,7 +117,7 @@ En el juego, existen distintos juegos que el personaje puede recoger:
 
   - **Ferrari**: Este objeto otorga más velocidad de movimiento a nuestro personaje durante unos segundos, ya que el Ferrari es rápido y le gusta mucho a nuestro personaje.
 
-  Al recoger un Ferrari, se reproduce un efecto de partículas de propulsión, se muestra un pequeño icono de x2 en la parte superior indicando que ha aumentado la velocidad del personaje y se reproduce un sonido de Ferrari. 
+  Al recoger un Ferrari, se reproduce un efecto de partículas de propulsión, se muestra un pequeño icono de *x2* en la parte superior indicando que ha aumentado la velocidad del personaje y se reproduce un sonido de Ferrari. 
 
   <p align="center">
     <img src="https://github.com/rmelgo/ANIM-Juego-futbol-Unreal/assets/145989723/b67dbb9a-fb1e-42e9-b685-01acef0782f2">
@@ -159,7 +159,7 @@ En el juego, existen 2 niveles, de los cuales se puede destacar lo siguiente:
 - **Nivel 2**: Este nivel incorpora 5 plataformas con enemigos rivales a los que el personaje debe superar para meter gol en la portería. Las plataformas incorporan los 4 tipos de objetos antes mencionados.
 
   Por otra parte existen varios componentes que le dotan de mayor dificultad a este nivel:
-    - **Enemigos mas rápidos**: En este nivel los enemigos se desplazan más rapido que en el nivel anterior. Son capaces de correr a la misma velocidad que nuestro personaje.
+    - **Enemigos más rápidos**: En este nivel, los enemigos se desplazan más rapido que en el nivel anterior. Son capaces de correr a la misma velocidad que nuestro personaje.
     - **Sistema de fuera de juego**: En este nivel, existe un plano de color rojo que va a ir barriendo el nivel lentamente. Si dicho plano alcanza y atraviesa al personaje, este se encontrará en fuera de juego y perderá.
     - **Plataformas móviles**: En este nivel, existe una serie de plataformas móviles que el personaje debe superar con el balón. Como la sección que incorpora las plataformas móviles es bastante difícil de superar con el balón a la primera, si el personaje pierde el balón en esta sección, automáticamente se le repondrá otro balón para que siga intentando superar el nivel.
       
@@ -170,3 +170,9 @@ En el siguiente video, se adjunta una demostración del funcionamiento del juego
 ![Miniatura](https://github.com/rmelgo/ANIM-Juego-futbol-Unreal/assets/145989723/d8b0fd16-d518-4590-8833-cf4fe82bf641)
 
 https://www.youtube.com/watch?v=Q2wRhGV-U7k
+
+# - Participantes
+
+<table>
+  <td align="center"><a href="https://github.com/rmelgo"><img src="https://avatars.githubusercontent.com/u/145989723?s=400&u=e5c06adba3f3c418207178abc845d398b3d5f77f&v=4" width="100px;" alt=""/><br /><sub><b>Raúl Melgosa</b></sub></a><br/> 
+</table>
